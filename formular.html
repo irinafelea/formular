@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name=viewport" content=width=device-width, initial-scale=1.0">
+
+    <title>formular</title> 
+</head>  
+<body> 
+    <form action="" method="post"> 
+        <table style="background-color: orange" align="center">
+            <caption style="background-color: white">MENIU</caption>
+            <tr> 
+                <td>Nume:</td>
+                <td><input type="text" name="nume"></td>
+            </tr> 
+            <tr>
+                <td>Prenume:</td>
+                <td><input type="text" name="prenume"></td>
+            </tr>
+            <tr>
+                <td>Telefon:</td>
+                <td><input type="text" name="prenume"></td>
+            </tr>
+            <tr>
+                <td>Alegeți pizza:</td>
+                <td ><input type="checkbox" name="pizza">cu ciuperci
+                     <input type="checkbox" name="pizza">mexicana
+                     <input type="checkbox" name="pizza">europeana
+                </td>
+            </tr>
+            <tr>
+                <td >Alegeți plata:</td>
+                <td bgcolor="A7CAF0">
+                    <ul style = "list-style-type: disc">
+                        <li><input type="radio" name="plata" checked>cash</li>
+                        <li><input type="radio" name="plata" checked>card</li>
+                </td>
+            <tr>
+                <td>Observații:</td>
+                <td colspan="2">
+                    <textarea cols="20" rows="5" wrap="soft">Inserați aici aprecierile dumneavoastră</textarea></td>
+            </tr>
+
+            <tr>
+                <td><input type="reset" value="șterge"></td> 
+                <td><input type="submit" value="expediază"> </td> 
+            </tr>
+        </table>
+    </form>
+</body> 
+</html>
